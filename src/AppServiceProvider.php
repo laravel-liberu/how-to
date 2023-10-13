@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\HowTo;
+namespace LaravelLiberu\HowTo;
 
 use Illuminate\Support\ServiceProvider;
 

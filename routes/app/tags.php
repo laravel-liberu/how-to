@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\HowTo\Http\Controllers\Tag\Destroy;
-use LaravelEnso\HowTo\Http\Controllers\Tag\Index;
-use LaravelEnso\HowTo\Http\Controllers\Tag\Store;
-use LaravelEnso\HowTo\Http\Controllers\Tag\Update;
+use LaravelLiberu\HowTo\Http\Controllers\Tag\Destroy;
+use LaravelLiberu\HowTo\Http\Controllers\Tag\Index;
+use LaravelLiberu\HowTo\Http\Controllers\Tag\Store;
+use LaravelLiberu\HowTo\Http\Controllers\Tag\Update;
 
 Route::prefix('tags')
     ->as('tags.')

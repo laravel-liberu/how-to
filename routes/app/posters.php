@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\HowTo\Http\Controllers\Poster\Destroy;
-use LaravelEnso\HowTo\Http\Controllers\Poster\Show;
-use LaravelEnso\HowTo\Http\Controllers\Poster\Store;
+use LaravelLiberu\HowTo\Http\Controllers\Poster\Destroy;
+use LaravelLiberu\HowTo\Http\Controllers\Poster\Show;
+use LaravelLiberu\HowTo\Http\Controllers\Poster\Store;
 
 Route::prefix('posters')
     ->as('posters.')

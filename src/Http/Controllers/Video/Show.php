@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Controllers\Video;
+namespace LaravelLiberu\HowTo\Http\Controllers\Video;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\HowTo\Models\Video;
+use LaravelLiberu\HowTo\Models\Video;
 
 class Show extends Controller
 {

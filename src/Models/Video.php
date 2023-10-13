@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\HowTo\Models;
+namespace LaravelLiberu\HowTo\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Models\File;
 
 class Video extends Model implements Attachable
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Controllers\Poster;
+namespace LaravelLiberu\HowTo\Http\Controllers\Poster;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\HowTo\Http\Requests\ValidatePoster;
-use LaravelEnso\HowTo\Models\Poster;
+use LaravelLiberu\HowTo\Http\Requests\ValidatePoster;
+use LaravelLiberu\HowTo\Models\Poster;
 
 class Store extends Controller
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\HowTo\Upgrades;
+namespace LaravelLiberu\HowTo\Upgrades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Upgrade\Contracts\BeforeMigration;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Upgrade\Contracts\BeforeMigration;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
 
 class UpdateMigrationOrder implements MigratesData, BeforeMigration
 {

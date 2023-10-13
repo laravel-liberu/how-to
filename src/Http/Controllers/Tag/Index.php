@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Controllers\Tag;
+namespace LaravelLiberu\HowTo\Http\Controllers\Tag;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\HowTo\Http\Resources\Tag as Resource;
-use LaravelEnso\HowTo\Models\Tag;
+use LaravelLiberu\HowTo\Http\Resources\Tag as Resource;
+use LaravelLiberu\HowTo\Models\Tag;
 
 class Index extends Controller
 {

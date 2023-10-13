@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Controllers\Tag;
+namespace LaravelLiberu\HowTo\Http\Controllers\Tag;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\HowTo\Http\Requests\ValidateTag;
-use LaravelEnso\HowTo\Models\Tag;
+use LaravelLiberu\HowTo\Http\Requests\ValidateTag;
+use LaravelLiberu\HowTo\Models\Tag;
 
 class Update extends Controller
 {

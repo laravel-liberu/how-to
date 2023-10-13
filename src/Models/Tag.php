@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\HowTo\Models;
+namespace LaravelLiberu\HowTo\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\HowTo\Exceptions\Tag as Exception;
+use LaravelLiberu\HowTo\Exceptions\Tag as Exception;
 
 class Tag extends Model
 {

@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\HowTo\Http\Controllers\Video\Destroy;
-use LaravelEnso\HowTo\Http\Controllers\Video\Index;
-use LaravelEnso\HowTo\Http\Controllers\Video\Show;
-use LaravelEnso\HowTo\Http\Controllers\Video\Store;
-use LaravelEnso\HowTo\Http\Controllers\Video\Update;
+use LaravelLiberu\HowTo\Http\Controllers\Video\Destroy;
+use LaravelLiberu\HowTo\Http\Controllers\Video\Index;
+use LaravelLiberu\HowTo\Http\Controllers\Video\Show;
+use LaravelLiberu\HowTo\Http\Controllers\Video\Store;
+use LaravelLiberu\HowTo\Http\Controllers\Video\Update;
 
 Route::prefix('videos')
     ->as('videos.')

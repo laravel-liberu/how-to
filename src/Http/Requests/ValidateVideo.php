@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Requests;
+namespace LaravelLiberu\HowTo\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidateVideo extends FormRequest
 {

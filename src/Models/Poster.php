@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\HowTo\Models;
+namespace LaravelLiberu\HowTo\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\OptimizesImages;
-use LaravelEnso\Files\Contracts\ResizesImages;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\OptimizesImages;
+use LaravelLiberu\Files\Contracts\ResizesImages;
+use LaravelLiberu\Files\Models\File;
 
 class Poster extends Model implements Attachable, OptimizesImages, ResizesImages
 {

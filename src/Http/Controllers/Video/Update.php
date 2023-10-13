@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\HowTo\Http\Controllers\Video;
+namespace LaravelLiberu\HowTo\Http\Controllers\Video;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\HowTo\Http\Requests\ValidateVideo;
-use LaravelEnso\HowTo\Models\Video;
+use LaravelLiberu\HowTo\Http\Requests\ValidateVideo;
+use LaravelLiberu\HowTo\Models\Video;
 
 class Update extends Controller
 {
